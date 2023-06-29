@@ -146,6 +146,7 @@
     border-style: solid;
     border-color: white;
     border-radius: 12px;
+    color: white;
   }
 
   .form-input input::placeholder{
@@ -318,16 +319,11 @@
       font-size: 1.6rem;
     }
   
-    .footer-links {
+    .footer-links{
       margin-top: 80px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    
-    .footer-links ul {
-      flex-basis: 100%;
-      text-align: center;
+      display: grid;
+      grid-template-areas: 'a';
+      grid-template-columns: 1fr;
     }
   
     .footer-links ul li{
