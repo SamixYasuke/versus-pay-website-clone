@@ -187,7 +187,7 @@
     margin-top: 80px;
     display: grid;
     grid-template-areas: 'a b c d e';
-    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .footer-links ul li{
