@@ -173,7 +173,7 @@ body, html {
 }
 
 .footer {
-  padding: clamp(2rem, 5vw, 5rem);
+  padding: 50px 10px;
   background-image: linear-gradient(64.49deg, #2f80ec -19.7%, #8364f6 86.76%);
   color: white;
   min-height: 50vh;
@@ -181,7 +181,7 @@ body, html {
 
 .footer h1 {
   text-align: center;
-  font-size: clamp(2rem, 4vw, 4.5rem);
+  font-size: clamp(2rem, 3vw, 4.5rem);
 }
 
 .footer-img {
@@ -194,9 +194,9 @@ body, html {
 
 .footer-links {
   margin-top: clamp(2rem, 4vw, 4rem);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas: 'a b c d e';
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
 }
 
 .footer-links ul {
@@ -214,8 +214,8 @@ body, html {
   font-size: clamp(1rem, 1vw, 5rem);
   line-height: clamp(1.8rem, 2.5vw, 3rem);
   margin: clamp(0.3rem, 0.5vw, 0.5rem) 0;
+  word-break: break-word;
 }
-
 
 
 @media screen and (max-width: 1023px){
